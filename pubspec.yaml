@@ -1,0 +1,33 @@
+name: pari_kids
+description: Pari Kids - Pari ABC (ICSE Advanced Syllabus Learning App)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  lottie: ^3.1.2
+  audioplayers: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/animations/fairy.json
+    - assets/animations/elephant.json
+    - assets/animations/lion_smile.json
+    - assets/animations/apple_jump.json
+    - assets/animations/ball_bounce.json
+    - assets/animations/lion_walk.json
+    - assets/audio/lets_go_nursery.mp3
+    - assets/audio/lets_go_lkg.mp3
+    - assets/audio/lets_go_ukg.mp3
+    
